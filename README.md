@@ -39,16 +39,20 @@ O sistema permite:
 
 ## Fluxo de trabalho
 1. Criação da branch:  
-  git checkout -b feature/nome
+  ```git checkout -b feature/nome```
 
 2. Commit e push:
+```bash
    git add .
    git commit -m "descrição"
    git push
+```
 
 4. Merge:
-   git checkout main
+```bash
+    git checkout main
    git merge feature/nome
+```
 
 ## Ferramentas e bibliotecas
 - Frameworks: Spring Boot
