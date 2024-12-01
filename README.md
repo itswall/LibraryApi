@@ -39,9 +39,11 @@ O sistema permite:
 
 ## Fluxo de trabalho
 1. Criação da branch:  
-  ```git checkout -b feature/nome```
+  ```bash
+git checkout -b feature/nome
+```
 
-2. Commit e push:
+3. Commit e push:
 ```bash
    git add .
    git commit -m "descrição"
@@ -72,13 +74,21 @@ O sistema permite:
   ``` 
   ou https://dev.mysql.com/downloads/installer/
     - Inicie o servidor MySQL:  
-      ```net start mysql```   
+      ```bash
+      net start mysql
+      ```   
     - Verifique a instação:  
-      ```mysql -u root -p```  
+      ```bash
+      mysql -u root -p
+      ```  
     - No MySQL, crie o Banco de Dados:  
-      ```CREATE DATABASE libraryapi;```  
+      ```bash
+      CREATE DATABASE libraryapi;
+      ```  
     - Execute o script em librarydocs/sql/setup.sql
-      ```mysql -u root -p libraryapi < librarydocs/sql/setup.sql```
+      ```bash
+      mysql -u root -p libraryapi < librarydocs/sql/setup.sql
+      ```
 
  - Acesse o endpoint padrão ```localhost:8080```
  - Teste as rotas com o Postman.
