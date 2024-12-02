@@ -24,7 +24,7 @@ O sistema permite:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/username/LibraryApi.git
+   git clone https://github.com/itswall/LibraryApi.git
    ```
 2. Navegue até a pasta do projeto:
    ```bash
@@ -34,6 +34,7 @@ O sistema permite:
 ## Pré-requisitos
 - Java SDK
 - MySQL
+- Maven
 - VSCode ou outra IDE capaz de executar o projeto.  
 
 
@@ -63,6 +64,10 @@ git checkout -b feature/nome
 - IDEs: VSCode
 
 ## Comandos de Instalação
+- MAVEN:
+
+    https://maven.apache.org/download.cgi
+
 - JDK:  
   ```bash  
   sudo apt install openjdk-17-jdk
@@ -90,8 +95,20 @@ git checkout -b feature/nome
       mysql -u root -p libraryapi < librarydocs/sql/setup.sql
       ```
 
+
  - Acesse o endpoint padrão ```localhost:8080```
- - Teste as rotas com o Postman.
-    
+ - Teste as rotas com o Postman ou outro software de sua escolha.
+
+## Como rodar o projeto
+- Certifique-se de está no diretorio do projeto  **"*/library"** 
+
+- Configure o username e password do banco de dados para ser o seu em **"*/library/src/main/java/resources/application.properties"**, coloque o mesmo username e password correspondente ao que você usa no seu ambiente MySQL. 
+
+- Certifique-se que a sua versão do java seja a 17 ou maior. 
+
+
+- No terminal, rode o comando "mvn spring-boot:run" ou rode o projeto com ajuda de alguma extensão da sua IDE. 
+
+- A api irá rodar na porta 8080 para você fazer as requisições desejadas!
 
 
