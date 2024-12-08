@@ -110,5 +110,17 @@ git checkout -b feature/nome
 - No terminal, rode o comando "mvn spring-boot:run" ou rode o projeto com ajuda de alguma extensão da sua IDE. 
 
 - A api irá rodar na porta 8080 para você fazer as requisições desejadas!
+  
+## Contributing
+[Sabia como contribuir](https://github.com/itswall/LibraryApi/blob/main/CONTRIBUTING.md)
+
+## Autores
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://github.com/aline-exe"><img src="https://github.com/user-attachments/assets/c733220b-f587-4124-84e8-15ad9fed238c" width="150px" alt="Aline"/><br /><sub><b>Aline</b></sub></a></td>
+    <td align="center"><a href="https://github.com/itswall"><img src="https://github.com/user-attachments/assets/c9e3af2f-2b58-4a02-99d3-39b27d7ea0b0" width="150px" alt="Wallace"/><br /><sub><b>Wallace</b></sub></a></td>
+    <td align="center"><a href="https://github.com/mariakarolina"><img src="https://github.com/user-attachments/assets/4f56f97c-63e9-462c-a47e-c512a9d4bba5" width="150px" alt="Maria"/><br /><sub><b>Maria</b></sub></a></td>
+  </tr>
+</table>
 
 
