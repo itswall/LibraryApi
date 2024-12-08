@@ -67,7 +67,7 @@ public class GlobalExceptionHandler {
         return ResponseEntity
                 .status(HttpStatus.UNPROCESSABLE_ENTITY)
                 .contentType(MediaType.APPLICATION_JSON)
-                .body(new MessageError(request, HttpStatus.UNPROCESSABLE_ENTITY, "Email ja existe"));
+                .body(new MessageError(request, HttpStatus.UNPROCESSABLE_ENTITY, "Email already in use."));
     }
 
 
