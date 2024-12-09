@@ -72,12 +72,8 @@ git checkout -b feature/nome
   ```bash  
   sudo apt install openjdk-17-jdk
   ```  
-  ou https://dev.mysql.com/downloads/installer/  
-- BD:  
-  ```bash  
-  mysql -u root -p < librarydocs/sql/setup.sql
-  ``` 
   ou https://dev.mysql.com/downloads/installer/
+  
     - Inicie o servidor MySQL:  
       ```bash
       net start mysql
@@ -89,12 +85,7 @@ git checkout -b feature/nome
     - No MySQL, crie o Banco de Dados:  
       ```bash
       CREATE DATABASE libraryapi;
-      ```  
-    - Execute o script em librarydocs/sql/setup.sql
-      ```bash
-      mysql -u root -p libraryapi < librarydocs/sql/setup.sql
       ```
-
 
  - Acesse o endpoint padrão ```localhost:8080```
  - Teste as rotas com o Postman ou outro software de sua escolha.
